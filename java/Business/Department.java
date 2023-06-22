@@ -11,8 +11,6 @@ public class Department {
 
     public void displayDepartmentInfo() {
 
-        /* wymienianie pracowników i od razu ich danych, a na dole oddzielenie ukośnikami */
-
         System.out.println("Department: " + name);
         System.out.println("Employees:");
         for (Employee employee : employees) {
