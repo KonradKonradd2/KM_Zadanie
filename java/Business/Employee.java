@@ -7,8 +7,6 @@ public class Employee {
 
     public Employee(String name, int age, double salary) {
 
-        /* dane pracowników - ich imiona, wieki i płace */
-
         this.name = name;
         this.age = age;
         this.salary = salary;
