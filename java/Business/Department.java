@@ -17,7 +17,7 @@ public class Department {
         System.out.println("Employees:");
         for (Employee employee : employees) {
             employee.displayInfo();
-            System.out.println("---------------");
+            System.out.println("/////////////");
         }
     }
 }
