@@ -1,3 +1,5 @@
+import org.apache.commons.lang3.StringUtils;
+
 package Business;
 
 public class Department {
@@ -10,8 +12,6 @@ public class Department {
     }
 
     public void displayDepartmentInfo() {
-
-        /* wymienianie pracowników i od razu ich danych, a na dole oddzielenie ukośnikami */
 
         System.out.println("Department: " + name);
         System.out.println("Employees:");
